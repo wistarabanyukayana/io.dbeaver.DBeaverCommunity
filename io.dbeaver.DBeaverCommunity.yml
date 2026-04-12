@@ -1,6 +1,8 @@
+# dbeaver-ce-26.0.3
+
 app-id: io.dbeaver.DBeaverCommunity
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: "49"
 sdk: org.gnome.Sdk
 
 # Upstream moved to Open JDK 21
