@@ -93,7 +93,7 @@ modules:
       - type: file
         dest-filename: sources.tar.gz
         url: https://github.com/dbeaver/dbeaver/archive/refs/tags/26.0.0.tar.gz
-        sha256: 91c0d71f3a935263af514fdd0a675b807aa45c38f3af55f60f0f336fd2af5497
+        sha256: 950a01755a52e5af90ffe60f8dc0e278babd63ddb26821939b12f666e08d013b
         x-checker-data:
           type: anitya
           project-id: 16276
@@ -103,7 +103,7 @@ modules:
         dest-filename: dbeaver.tar.gz
         only-arches:
           - x86_64
-        url: https://github.com/dbeaver/dbeaver/releases/download/25.3.4/dbeaver-ce-25.3.4-linux.gtk.x86_64.tar.gz
+        url: https://github.com/dbeaver/dbeaver/releases/download/26.0.0/dbeaver-ce-26.0.0-linux.gtk.x86_64.tar.gz
         sha256: 8aa6e9bd74a7d23b0735db27ebf0b5455dbc5dce78a365e7bed1bc5ae8e92451
         x-checker-data:
           type: anitya
@@ -114,7 +114,7 @@ modules:
         dest-filename: dbeaver.tar.gz
         only-arches:
           - aarch64
-        url: https://github.com/dbeaver/dbeaver/releases/download/25.3.4/dbeaver-ce-25.3.4-linux.gtk.aarch64.tar.gz
+        url: https://github.com/dbeaver/dbeaver/releases/download/26.0.0/dbeaver-ce-26.0.0-linux.gtk.aarch64.tar.gz
         sha256: 7e4bbd8834b233908eac2032f6c2016540a8ec4f3fda72109a584a02d05b99cc
         x-checker-data:
           type: anitya
